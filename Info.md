@@ -11,6 +11,6 @@ O que é MongoDB?
 
 O MongoDB é um banco de dados No-SQL (não relacional) cuja utilização está em ascensão. Trata-se de uma aplicação de código fonte aberto, de alta performance, sem esquemas, orientado a documentos.
 
-- Chat multiusuário: O objetivo deste projeto consiste em aprendermos o recurso de websockets, uma tecnologia que permite a comunicação bi-direcional entre clientes (browsers) e servidores, com esta tecnologia é possível criar aplicações em real-time e quebrar o paradigma de que requisições são feitas apenas por parte do cliente.
+Chat multiusuário: O objetivo deste projeto consiste em aprendermos o recurso de websockets, uma tecnologia que permite a comunicação bi-direcional entre clientes (browsers) e servidores, com esta tecnologia é possível criar aplicações em real-time e quebrar o paradigma de que requisições são feitas apenas por parte do cliente.
 
 
