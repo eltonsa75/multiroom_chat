@@ -14,7 +14,7 @@ var expressValidator = require('express-validator');
 var app = express();
 
 /* setar as varaiveis 'view engine' e 'views' do express */
-app.set('views engine', 'ejs');
+app.set('view engine', 'ejs');
 app.set('views', './app/views');
 
 
@@ -30,7 +30,7 @@ app.use(expressValidator());
 /* efetua o autoload das rotas, dos models e dos controllers para o objeto app */
 consign()
 .include('app/routes')
-.then('app/modelsl')
+.then('app/models')
 .then('app/controllers')
 .into(app);
 
