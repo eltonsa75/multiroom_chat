@@ -8,6 +8,8 @@ var app = require('./config/server');
 
 var io = require('socket.io').listen(server);
 
+app.set('io', io);
+
 /* criar a conexão por websocket */
 io.on('connection', function(socket){
     console.log('Usuário conectado!');
