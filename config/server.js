@@ -5,7 +5,7 @@ var express = require('express');
 var consign = require('consign');
 
 /* importar o módulo do body-parser */
-var bosyParser = require('bosy-parser');
+var bodyParser = require('body-parser');
 
 /* importar o módulo do express-validator */
 var expressValidator = require('express-validator');
